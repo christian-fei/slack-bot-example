@@ -1,0 +1,22 @@
+{
+  "name": "slack-bot-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-fei/slack-bot-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-fei/slack-bot-example/issues"
+  },
+  "homepage": "https://github.com/christian-fei/slack-bot-example#readme",
+  "dependencies": {
+    "claudia-bot-builder": "^1.4.4"
+  }
+}

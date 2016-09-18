@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "slack-bot-example-executor",
+    "name": "slack-bot-example",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "3c61xxwsy7",
+    "module": "bot"
+  }
+}
