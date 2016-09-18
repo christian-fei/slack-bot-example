@@ -7,7 +7,9 @@ describe('requestHandler', function () {
   const user_name = 'user_1'
   const requestFrom = (text) => ({originalRequest: {text:text, user_name: user_name}})
 
-  it('greets user', function () {
-    expect( requestHandler(requestFrom('hello')).text ).to.equal('Hello, user_1')
+  describe('greeting', function () {
+    it('greets user', function () {
+      expect( requestHandler(requestFrom('hello')).text ).to.equal('Hello, user_1')
+    })
   })
 })
