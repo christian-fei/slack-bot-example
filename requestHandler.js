@@ -1,3 +1,4 @@
+const formatResponse = (text) => ({text:text, response_type: 'in_channel'})
 module.exports = (request) => {
-  return `Hello, ${request.originalRequest.user_name}`
+  return formatResponse(`Hello, ${request.originalRequest.user_name}`)
 }
